@@ -1,0 +1,52 @@
+{
+    "questions": [ 
+        {
+            "title": "Hva slags test brukes for å teste en enkelt funksjon",
+            "answers": [
+                {"answer1": "Enhetstest", "correct": true},
+                {"answer2": "Integrasjonstest"},
+                {"answer3": "UI test"},
+                {"answer4": "Service test"}
+            ],
+            "helper": {
+                "text": "En funksjon kan ses på som en enkelt enhet i programmet."
+            }
+        },
+        {
+            "title": "Hva består en test av?",
+            "answers": [
+                {"answer1": "Oppsett"},
+                {"answer2": "Utførelse"},
+                {"answer3": "Svarskjekk"},
+                {"answer4": "Alle de nevnte", "correct": true}
+            ],
+            "helper": {
+                "text": "For å utføre en test må man ha et utgangspunk, noe å teste og et svar på testen."
+            }
+        },
+        {
+            "title": "Når vet man at man har testet nok?",
+            "answers": [
+                {"answer1": "Når man er lei av å skrive tester"},
+                {"answer2": "En test per komponent"},
+                {"answer3": "Høyest testdekning som mulig er oppnådd", "correct": true},
+                {"answer4": "En test per funksjon"}
+            ],
+            "helper": {
+                "text": "Det er vanskelig å vite når man har testet nok, derfor er det viktig å skjekke hvor mye av koden som er testet."
+            }
+        },
+        {
+            "title": "Hvorfor bruker man mocks eller fakes når man tester?",
+            "answers": [
+                {"answer1": "Testen blir ikke avhengig av API kall som kanskje ikke svarer"},
+                {"answer2": "Det gjør testene raskere"},
+                {"answer3": "Alle de nevnte", "correct": true},
+                {"answer4": "Det er mer forutsigbart"}
+            ],
+            "helper": {
+                "text": "Testing skal være raskt og enkelt og bør ikke være avhengig av eksterne tjenester."
+            }
+        }
+    ]
+}
