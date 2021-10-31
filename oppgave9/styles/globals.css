@@ -1,0 +1,126 @@
+html,
+body {
+  width: 80vw;
+  padding: 0;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+#wrap {
+  display:flex;
+  flex-direction: column;  
+  align-items: center;
+
+  margin-top: 3vw;
+}
+
+#header {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  
+  align-items: center;
+  
+}
+
+#return-link {
+  align-self: flex-start
+}
+
+#header-title {
+  align-self: center;
+}
+
+#home-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#row {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+}
+
+
+#add-movie-wrapper {
+  width: 20%;
+  display:flex;
+  flex-direction: column; 
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#all-movies-wrapper {
+  width: 60%;
+  display:flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#one-movie-wrapper {
+  width: 20%;
+  display:flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+
+.form {
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+
+#movie-component {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+#movie-title {
+
+}
+
+#movie-description {
+
+}
+
+
+
+
+
+
+
+.flexbox-oppgave9 {
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-content: center;
+
+}
